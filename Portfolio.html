@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sageer's Portfolio</title>
+    <link rel="stylesheet" href="./Style.css">
+    <script src="https://kit.fontawesome.com/c933944e26.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <!-- <img class="img-logo" src="./Images/Bitmoji.png" alt="Bitmoji" style="float: right; margin-right: 15px;"> -->
+       
+        <div class="container">
+            <nav>
+                <h1 class="name "><span>S</span>ageer</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <br>
+                <p>Software Developer</p>
+                <h2>Hii, i am <span>S</span>ageer</h2>
+            </div>
+        </div>
+        <!-- <div style="text-align: right;"><img src="./Images/Bitmoji.png" alt="Bitmoji"></div> -->
+    </div>
+
+
+    
+
+<!--                    ABOUT                -->
+    <div id="About">
+        <div class="about-cont">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/WhatsApp Image 2022-11-21 at 20.13.29.jpg" alt="self-image">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me    </h1>
+                    <br>
+                    <p>
+                            A Programming enthusiast and a person who is fascinated by business development and
+                            Startups. A person who likes to explore. Perpetually curious and creative human with a
+                            passion for pursuits.I love applying my skills on the project. I am competitive in problem solving 
+                            and teamwork. I also have smoothness in solving problems involving data structures and algorithms. 
+                            I'm looking for an enthusiastic and supportive team to work with. 
+                            Team that will allow me to work with my full potential.
+                    </p>
+                    <br> 
+                    <h1>skills</h1>
+                    <div class="titles">
+                        <br>
+                        
+                        <p class="tab-links active-link" onclick="opentab('Languages')">Languages</p>
+                        <p class="tab-links " onclick="opentab('IT Construct')">IT Constructs</p>
+                        <p class="tab-links " onclick="opentab('Web Technology')">Web Technologies</p>
+                      
+                    </div>
+                    <div class="tab-contents Languages" id="Languages">
+                        <ul>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>SQL</li>
+                            <li>PL/SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents ItConstruct" id="IT Construct">
+                        <ul>
+                            <li>Data Structures and algorithms</li>
+                            <li>OOP</li>
+                            <li>Operating System</li>
+                            <li>DBMS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents WebTech" id="Web Technology">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>MongoDB</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--            Projects         -->
+    <div id="Projects">
+        <div class="container">
+            <h1>My Projects    </h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Landing page</h2>
+                    <p>Created a website landing page for a virtual university. Used HTML and css
+                        for it. HTML for writing the body of the website and CSS for Styling.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h2>AR Effect</h2>
+                    <p> Created an AR Effect for Instagram and Facebook with help of park AR Platform.
+                        Learned about augmented reality in it which the help of Reskill SPARK-AR platform.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-copy"></i>
+                    <h2>Clone project</h2>
+                    <p>Created a Netflix Landing Page Clone. Used HTML for writing the body of the Page.
+                        And CSS for Styling the web page.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--                         Education                    -->
+
+    <div id="education">
+        <div class="container">
+            <h1 class="sub-title">Education</h1>
+            
+                <div class="BE">
+                    <button>2020-2024</button>
+                    <h2>BE Computer</h2>
+                    <p>K.K. Wagh institute of engineering education and research, Nashik</p>
+                    <p>Savitribai Phule Pune University</p>
+                </div>
+                <br>
+                <div class="HSC">
+                    <button>2020</button>
+                    <h2>HSC</h2>
+                    <p>Swami Vivekanand(MJ) Junior College, Jalgaon</p>
+                    <h3>Percentage: 78.77%</h3>
+                </div>
+                <br>
+                <div class="SSC">
+                    <button>2018</button>
+                    <h2>SSC</h2>
+                    <h3>Percentage: 82.20%</h3>
+                </div>
+            
+            
+        </div>
+    </div>
+    
+
+<!--                        Contacts                             -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  sageermalnas78@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9527205841</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/s.a.g_e.e.r?igshid=NDk5N2NlZjQ= "target="_blanck"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sageer-malnas-505935221 " target="_blanck"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="./SAGEER MALNAS (2).pdf" download class="btn">
+                        <button>My Resume</button>
+                    </a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">submit</button>
+                    </form>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="End">
+            <p>Thank you for visiting my Portfolio <i class="fa-regular fa-face-smile"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("Languages")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("Languages")
+        }
+    </script>
+
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-250px";
+        }
+
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxF8GOiAFH7NwuYrFc4S7BibXFaoQ431CAUkvmL4CmZREN-0mj7HdCcdUVhlcXwf9yYiQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+    </script>
+</body>
+</html>
